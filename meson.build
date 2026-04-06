@@ -6,13 +6,4 @@ project(
   default_options : ['warning_level=3'],
 )
 
-dependencies = [
-]
-
-exe = executable(
-  'DumbEngine',
-  'main.cpp',
-  dependencies : dependencies,
-  install : true,
-)
-
+subdir('src')

@@ -17,5 +17,5 @@ Download code & compile:
 git clone https://github.com/kaixoo12/Dumb-Engine
 cd Dumb-Engine
 meson setup build
-meson 
+meson compile -C build
 ```
